@@ -1,0 +1,21 @@
+@import url("URL");
+
+img {
+    width: 100%;
+    border: 5px solid cyan ;
+
+}
+a:hover{
+    color: black;
+    transform: scale(1.5);
+}
+
+.img1{
+    filter: sepia();
+}
+.img2{
+    filter: blur(2px);
+}
+.img3{
+    filter: grayscale(1);
+}
